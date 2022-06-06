@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpapers">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="442dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/hotel"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:text="Welcome to Bayan Hotel"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/HOME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Booking page"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="428dp"
+        />
+
+
+</TableLayout>
+
+
